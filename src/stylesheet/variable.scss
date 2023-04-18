@@ -1,0 +1,42 @@
+.gradient-color-one {
+  background: #9747ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #9747ff,
+    #017cc9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #9747ff,
+    #017cc9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-color-two {
+  background: #9747ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #5651a5,
+    #5651a5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #5651a5,
+    #5651a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cardimg {
+  height: 300px;
+}
+.bg-ButterflyBush {
+  background-color: var(--color-ButterflyBush);
+}
+.bg-oranges-grs {
+  background-color: #822eb0;
+}

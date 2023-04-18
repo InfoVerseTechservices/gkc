@@ -1,0 +1,107 @@
+.abtn-primary-custom {
+  @include abtn-primary-custom;
+}
+
+.btn-semore {
+  @include btn-semore;
+}
+.btn-dark-custom {
+  @include btn-dark-custom;
+}
+.btn-light-custom {
+  @include btn-light-custom;
+}
+.btn-primary-custom {
+  @include btn-primary-custom;
+}
+
+.btn-check-arrow {
+  @include btn-outline-secondary-custom;
+
+  &:hover,
+  &:focus {
+    @include btn-outline-secondary-custom-hover;
+  }
+
+  .active-check {
+    display: none;
+    font-size: 21px;
+    vertical-align: middle;
+    line-height: 20px;
+    transition: display 0.15s ease-in-out;
+  }
+  &.active,
+  &:focus,
+  &:hover {
+    .active-check {
+      display: inline-block;
+      transition: display 0.15s ease-in-out;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.btn-circle {
+  @include btn-outline-secondary-custom;
+  height: 40.5px;
+  width: 40.5px;
+  border-radius: 100%;
+  padding: 0.3rem;
+  &:hover,
+  &:focus {
+    @include btn-outline-secondary-custom-hover;
+    padding: 0.3rem;
+  }
+  .active-check {
+    display: none;
+  }
+}
+
+.submit-btn {
+  @include btn-custom;
+  background-color: var(--color-royal-blue);
+  border-radius: 0;
+  color: var(--color-white);
+  font-size: 23px;
+  font-weight: 400;
+  border-color: var(--color-royal-blue);
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--color-white);
+    color: var(--color-royal-blue);
+  }
+}
+.form-control,
+.form-select {
+  @include form-control-input-custom;
+}
+.form-control-secondary {
+  @include form-control-input-custom;
+  background-color: var(--color-gallery);
+  border-color: var(--color-dove-gray);
+}
+.combo-input {
+  @include form-control-input-custom;
+  .form-control {
+    border-radius: 50px 0 0 50px;
+    width: 50%;
+  }
+  .form-select {
+    border-radius: 0 50px 50px 0;
+    color: var(--color-dove-gray);
+  }
+}
+
+.menu-btn {
+  background-color: transparent;
+  color: var(--color-royal-blue);
+  transition: all 1s ease-in-out;
+  &:hover {
+    color: var(--color-royal-blue);
+    background-color: var(--color-white);
+    transition: all 1s ease-in-out;
+  }
+  svg {
+    transition: all 1s ease-in-out;
+  }
+}

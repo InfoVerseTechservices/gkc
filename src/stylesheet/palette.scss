@@ -1,0 +1,15 @@
+html {
+  --color-white: #ffffff;
+  --color-Mine-Shaft: #3e3e3e;
+  --color-black: #000000;
+  --color-jaguar: #0a0118;
+  --color-ButterflyBush: #5651a5;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
